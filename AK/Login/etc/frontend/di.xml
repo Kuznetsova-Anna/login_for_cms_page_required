@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Cms\Controller\Page\View">
+        <plugin name="cms_page_login" type="AK\Login\Model\Cms\Controller\Page\ViewPlugin" />
+    </type>
+    <type name="Magento\Cms\Controller\Index\Index">
+        <plugin name="cms_page_login_home" type="AK\Login\Model\Cms\Controller\Index\IndexPlugin" />
+    </type>
+</config>
